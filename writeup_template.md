@@ -32,9 +32,9 @@ First, I converted the RGB image to grayscale. Then I applied a gaussian blur wi
 ### 2. Identify potential shortcomings with your current pipeline
 
 
-One potential shortcoming would be what would happen when the road is not of uniform texture/ road is dirty. There would be noise edges detected on the road. This is easily seen in the last optional video, where the algorithm gets comletely broken.  
+One potential shortcoming would be what would happen when the road is not of uniform texture/ road is dirty. There would be noise edges detected on the road. This is easily seen in the last optional video, where the algorithm gets completely broken.  
 
-Another shortcoming could be during turns when the lane lines are actually lines but curves (during turns), then the algorithm would not be able to fit lines properly. I was distinguishing the left and the right lane by the sign of the slope of the individual lines, which might not hold true there.
+Another shortcoming could be during turns when the lane lines are not actually "lines" but curves (during turns), then the algorithm would not be able to fit lines properly. I was distinguishing the left and the right lane by the sign of the slope of the individual lines, which might not hold true there.
 
 
 ### 3. Suggest possible improvements to your pipeline
